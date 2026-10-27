@@ -1,0 +1,58 @@
+:root {
+  /* Graphite surfaces */
+  --bg: #161616;
+  --surface: #1f1f1f;
+  --surface-2: #232323;
+  --surface-3: #2c2c2c;
+  --surface-raised: #454545;
+  --border: #2f2f2f;
+  --border-strong: #3b3b3b;
+
+  /* Ink */
+  --text: #ffffff;
+  --text-soft: #e1e1e2;
+  --text-2: #b2b2b2;
+  --icon: #9e9e9e;
+  --muted: #767676;
+  --faint: #4f4f4f;
+
+  /* Paper: the editorial accent surface */
+  --paper: #f7f5e2;
+  --paper-edge: #efedda;
+  --paper-ink: #000000;
+  --paper-ink-2: #3d3b30;
+
+  /* Data */
+  --blue: #528ce3;
+  --blue-strong: #3f80d7;
+  --blue-wash: #1b2936;
+  --rose: #be948c;
+  --rose-wash: #2e2321;
+  --guide: #5a5a5a;
+  --positive: #6fbf8e;
+  --negative: #e07a6b;
+  --amber: #e2a64b;
+
+  --light: #fafafb;
+
+  /* Type */
+  --font-ui: 'Inter', ui-sans-serif, sans-serif;
+  --font-display: 'Inria Serif', Georgia, serif;
+  --font-paper: 'Inknut Antiqua', Georgia, serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+
+  /* Shape */
+  --r-xs: 8px;
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-pill: 100px;
+
+  /* Layout */
+  --sidebar-w: 232px;
+  --panel-w: 260px;
+  --header-h: 52px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow-pop: 0 18px 50px -12px rgb(0 0 0 / 0.65), 0 0 0 1px var(--border);
+}
